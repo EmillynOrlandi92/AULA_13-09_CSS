@@ -1,11 +1,61 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
-</html>
+<html lang="pt-br"> <!--Disponibiliza a tradução da página e o idioma-->
+    <head>
+        <meta charset="UTF-8"> <!--Disponibiliza a acentuação na página-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Git</title>
+        <style>
+            * { /*O asteristico aplica o css em tudo!! Usamos ele para o reset (limpar)*/
+                padding: 0;
+                border: 0;
+                box-sizing: border-box; /*Define o tamanho do elemento*/
+                line-height: 1.5;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            p {
+                font-size: 14px;
+                color: #242424;
+            }
+
+            h1, h2, h3, h4, h5, h6 {
+                font-weight: bold;
+                color: #0000ff;
+                margin-bottom: 20px;
+                text-align: center;
+            }
+
+            .container {
+                padding-left: 30%;
+                padding-right: 30%;
+            }
+
+            .card {
+                border: 1px #cccccc solid;
+                padding: 15px;
+                border-radius: 10px;
+                margin: 10px auto;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            }
+
+            .tamanho-50 {
+                width: 49%;
+                max-width: 49%;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1 style="color:#ff0000">Fatec Jahu - CSS Inline</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam ipsam labore, unde distinctio adipisci rerum illum temporibus reprehenderit consequatur doloremque enim culpa quae quisquam laboriosam facilis itaque excepturi possimus consequuntur?  
+            </p>
+            <div class="card tamanho-50">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut harum illum nam officiis maxime similique dolore, doloribus quis excepturi eius veritatis quasi ipsum commodi. Officia, sequi! Nulla amet beatae sint.</div>
+        </div>
+
+        <div class="card tamanho-50">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio ab natus similique tempora at, magnam itaque! Maxime veniam libero minus! Error porro velit reiciendis, accusamus dolores architecto officia facilis soluta.
+        </div>
+    </body>
+    </html>
